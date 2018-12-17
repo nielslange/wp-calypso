@@ -13,7 +13,7 @@ const extensionSlugs = [
 	...( isEnabled( 'jetpack/blocks/beta' ) ? extensionSlugsJson.beta : [] ),
 ];
 
-export async function getExtensions() {
+export default async function getExtensions() {
 	const promises = extensionSlugs.map( slug =>
 		// Need to explicitly look for `index.js` or Webpack will try with
 		// all files when resolving the dynamic import -- including `README.md`s,
