@@ -29,6 +29,8 @@ import isRtlSelector from 'state/selectors/is-rtl';
 import refreshRegistrations from '../extensions/presets/jetpack/utils/refresh-registrations';
 import { getSiteOption, getSiteSlug } from 'state/sites/selectors';
 
+import '../extensions/presets/jetpack/index.js'; // Jetpack preset setup
+
 /**
  * Style dependencies
  */

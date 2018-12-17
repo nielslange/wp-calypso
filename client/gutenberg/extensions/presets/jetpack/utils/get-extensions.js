@@ -3,9 +3,7 @@
 /**
  * Internal dependencies
  */
-import './shared/public-path';
-import './editor-shared/block-category'; // Register the Jetpack category
-import extensionSlugsJson from './index.json';
+import extensionSlugsJson from '../index.json';
 import { isEnabled } from 'config';
 
 const extensionSlugs = [
