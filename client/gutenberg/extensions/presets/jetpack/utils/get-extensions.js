@@ -16,7 +16,7 @@ export default async function getExtensions() {
 		// Need to explicitly look for `index.js` or Webpack will try with
 		// all files when resolving the dynamic import -- including `README.md`s,
 		// leading to warnings during startup.
-		import( /* webpackMode: "eager" */ `../../${ slug }/index.js` ).then(
+		import( /* webpackMode: "eager" */ `../../../${ slug }/index.js` ).then(
 			( { childBlocks, name, settings } ) => ( {
 				childBlocks,
 				name,
