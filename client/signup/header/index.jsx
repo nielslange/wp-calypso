@@ -57,7 +57,7 @@ export default class SignupHeader extends Component {
 		return (
 			<div className="header">
 				{ this.shouldShowMockMasterBar() && <div className="header__masterbar-mock masterbar" /> }
-				<WordPressLogo size={ 200 } className={ logoClasses } />
+				<WordPressLogo size={ 180 } className={ logoClasses } />
 
 				{ /* Ideally, this is where the back button
 			   would live. But thats hard to move, it seems. */ }
