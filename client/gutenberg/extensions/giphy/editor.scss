@@ -1,0 +1,48 @@
+.wp-block-jetpack-giphy {
+	.wp-block-jetpack-giphy_cover {
+		background: none;
+		border: none;
+		height: 100%;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+		&:focus {
+			outline: none;
+		}
+	}
+	.wp-block-jetpack-giphy_text-input-field {
+		left: 25%;
+		margin-top: -3em;
+		position: absolute;
+		top: 50%;
+		width: 50%;
+		&.has-focus .components-text-control__input {
+			opacity: 1;
+			-webkit-transition: opacity 0;
+			-moz-transition: opacity 0;
+			-o-transition: opacity 0;
+			-ms-transition: opacity 0;
+			transition: opacity 0;
+		}
+		&.no-focus .components-text-control__input {
+			-webkit-transition: opacity 0.5s ease-in;
+			-moz-transition: opacity 0.5s ease-in;
+			-o-transition: opacity 0.5s ease-in;
+			-ms-transition: opacity 0.5s ease-in;
+			transition: opacity 0.5s ease-in;
+		}
+		.components-text-control__input {
+			opacity: 0;
+			padding: 8px 2px;
+			text-align: center;
+		}
+		.components-base-control__label {
+			height: 0;
+			text-indent: -9999px;
+		}
+	}
+}
