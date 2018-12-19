@@ -73,14 +73,6 @@ export default {
 		allowExistingUsers: true,
 		localeTargets: 'any',
 	},
-	privateByDefault: {
-		datestamp: '20181115',
-		variations: {
-			private: 10,
-			public: 90,
-		},
-		defaultVariation: 'public',
-	},
 	simplifiedChecklistView: {
 		datestamp: '20181204',
 		variations: {
@@ -96,5 +88,22 @@ export default {
 			hideUsername: 50,
 		},
 		defaultVariation: 'showUsername',
+	},
+	jetpackFreePlanButtonPosition: {
+		datestamp: '20181212',
+		variations: {
+			locationTop: 50,
+			locationBottom: 50,
+		},
+		defaultVariation: 'locationBottom',
+		allowExistingUsers: true,
+	},
+	privateByDefault: {
+		datestamp: '20181217',
+		variations: {
+			private: 10,
+			public: 90,
+		},
+		defaultVariation: 'public',
 	},
 };
