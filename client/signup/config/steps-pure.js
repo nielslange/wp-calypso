@@ -404,7 +404,7 @@ export function generateSteps( {
 
 		'site-style': {
 			stepName: 'site-style',
-			providesDependencies: [ 'themeSlugWithRepo' ],
+			providesDependencies: [ 'siteStyle', 'themeSlugWithRepo' ],
 		},
 	};
 }
